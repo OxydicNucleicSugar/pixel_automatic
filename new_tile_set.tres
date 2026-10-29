@@ -1,4 +1,12 @@
 [gd_resource type="TileSet" format=3 uid="uid://plyt73y0byvw"]
 
+[ext_resource type="Texture2D" uid="uid://ceor0cmlmkmrf" path="res://assets/tiles/grass.png" id="1_e3020"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ujgj0"]
+texture = ExtResource("1_e3020")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+
 [resource]
 tile_size = Vector2i(32, 32)
+sources/0 = SubResource("TileSetAtlasSource_ujgj0")
